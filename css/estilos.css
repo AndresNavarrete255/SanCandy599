@@ -1,0 +1,32 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-image: linear-gradient(135deg,
+		#90EE90,#20B2AA,#7FFFD4,#00CED1,
+	    #ADD8E6,#00BFFF,#008000);
+       background-size: 500%;
+       animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado{
+	0%{
+		background-position: 0% 50%;}
+	50%{
+		background-position: 100% 30%;}
+	100%{
+	    background-position: 0% 50%;}
+}
+
+table td {
+	color: #000000;
+	background-color: #FFFAF0;
+	font-size: 115%;
+}
+
+table td:nth-child(8) {
+	color: #000000;
+	background-color: #008080;
+	text-align: center;
+}

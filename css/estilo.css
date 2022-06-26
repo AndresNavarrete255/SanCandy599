@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+div.galeria{
+
+	margin: 10px 20px;
+	box-shadow: 0 4px 8px 0 chartreuse, 0 6px 20px 0 rgb( 0, 0, 0.19);
+	float: left;
+	width: 300px;
+}
+
+div.galeria img{
+	width: 100%
+	heigt: auto;
+}
+div.galeria:hover{
+	boder: 1px solid green;
+	transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center ;
+    text-shadow: 2px 2px 5px Navy;
+    padding: 10px;
+}
+
+div.menu{
+	background-color: greenyellow ;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+display: inline-flex;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover {
+	background-color: orange;
+}
+
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
